@@ -1,0 +1,257 @@
+/* Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+/* Custom CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+::selection {
+    color: black;
+    background-color: #bea060;
+}
+
+header {
+    width: 100%;
+    height: 120%;
+    background-color: #E9E3E6;
+    display: flex;
+}
+
+.header-left-side {
+    width: 80%;
+    height: 120%;
+    padding: 0 0 0 90px;
+    color: white;
+}
+
+.header-left-side h1 {
+    color: #736F72;
+    line-height: 1.2em;
+    font-size: 78px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400 !important;
+}
+
+.header-left-side h2 {
+    color: #736F72;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.header-left-side p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #9A8F97;
+    line-height: 2;
+}
+
+.eduText {
+    background: transparent;
+    width: 200%;
+    height: 200%;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    border-bottom: 10px dashed #420F6B;
+}
+
+
+.inxLine {
+    width: 50%;
+    display: flex;
+    border-top: 8px solid #420F6B;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 100%;
+    display: flex;
+    border-top: 8px solid #420F6B;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.eduL,
+.eduR {
+    width: 45%;
+    height: 2005;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-top: 10px dashed #420F6B;
+
+}
+
+.eduL {
+    border-right: 10px dashed #420F6B;
+    border-left: 10px dashed #420F6B;
+    margin-left: 5%;
+
+    float: left;
+    margin-top: 5px;
+}
+
+.eduR {
+    border-right: 10px dashed #420F6B;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+
+.eduL s2 {
+    color: #736F72;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+ul.A {
+    padding-top: 10px;
+    line-height: 40px;
+    font-weight: 50;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+
+}
+
+li.B {
+    list-style-type: square;
+    font-weight: 30;
+    font-size: 25px;
+    color: purple;
+
+
+}
+
+.eduR s3 {
+    color: #736F72;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 10px;
+
+}
+
+div.sticky {
+    position: fixed;
+    right: 0px;
+    border: solid 10px #DEEFB7;
+    background-color: #FBF2C0;
+    padding: auto;
+    height: 80px;
+    width: 160px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.blogText {
+    background: transparent;
+    width: 100%;
+    height: 1000%;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.blog {
+    background: #E3E3E9;
+    width: 90%;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    border: solid 5px #657068;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+.blog text {
+    color: #747471;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 30;
+    padding: auto;
+    padding-bottom: 5px;
+
+}
+
+
+.blog t {
+    color: black;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+button {
+    padding: 20px 10px;
+    border: 2px solid #4F1271;
+    background: transparent;
+    width: 47%;
+    color: #4F1271;
+    margin-right: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D7A7F1;
+    transition: 0.7s;
+}
+
+.btn {
+    width: 97%;
+    background: transparent;
+}
+
+.header-left-side h3 {
+    color: #c1bfbf;
+    padding-top: 80px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.header-right-side img {
+    width: 100%;
+    height: 90%;
+    margin-top: 10%;
+    margin-left: 10px;
+}
